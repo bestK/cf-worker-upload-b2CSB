@@ -1,0 +1,13 @@
+name = "cf-upload"
+main = "src/index.js"
+# 
+account_id = "xxxxx"
+route = "xxxxx/*"
+compatibility_flags = [ "formdata_parser_supports_files" ]
+compatibility_date = "2021-09-09"
+ 
+workers_dev = false
+
+kv_namespaces = [
+  { binding = "upload_kv", id = "xxxx" , preview_id = "xxxx" }
+]
