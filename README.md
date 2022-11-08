@@ -1,9 +1,6 @@
 # cf-worker-upload-b2CSB
 Upload file to B2 Cloud Storage with cloud flare worker
 
-# cf-worker-upload-b2CSB
-Upload file to B2 Cloud Storage with cloud flare worker
-
 1. create KV
 wrangler kv:namespace create "<YOU_NAMESPACE>"  &&  wrangler kv:namespace create "YOU_NAMESPACE" --preview
 
